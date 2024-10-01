@@ -8,7 +8,7 @@ export function fibonacci(i: number): number {
   if (i == 1) {
     return 1;
   }
-  return fibonacci(i - 1) + fibonacci(i - 2);
+  return fibonacci(i - "1") + fibonacci(i - 2);
 }
 
 export function initFibonacciUi(component: HTMLElement) {
