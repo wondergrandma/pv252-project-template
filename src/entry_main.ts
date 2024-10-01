@@ -10,16 +10,26 @@ initFactorialUi(site_a);
 initFibonacciUi(site_b);
 
 site_a.onclick = () => {
+
+
+
   UIkit.notification("Going to factorials in 3s...", { pos: "bottom-right" });
   setTimeout(() => {
     UIkit.notification("Going to factorials in 2s...", { pos: "bottom-right" });
     setTimeout(() => {
+
+
+
+
       UIkit.notification("Going to factorials in 1s...", {
         pos: "bottom-right",
       });
       setTimeout(() => {
         location.href = "/site_a.html";
       }, 1000);
+
+
+      
     }, 1000);
   }, 1000);
 };
